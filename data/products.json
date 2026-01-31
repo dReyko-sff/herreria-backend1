@@ -1,18 +1,13 @@
 [
   {
     "id": 1,
-    "title": "Portón corredizo",
-    "description": "Portón de hierro con guía inferior",
-    "price": 320000,
-    "stock": 1,
-    "category": "portones"
-  },
-  {
-    "id": 2,
-    "title": "Portón corredizo",
-    "description": "Portón de hierro con guía inferior",
-    "price": 320000,
-    "stock": 1,
-    "category": "portones"
+    "title": "Martillo",
+    "description": "Martillo de acero",
+    "code": "MART01",
+    "price": 3500,
+    "status": true,
+    "stock": 10,
+    "category": "herramientas",
+    "thumbnails": []
   }
 ]

@@ -29,11 +29,14 @@ export default class ProductManager {
 
     const newProduct = {
       id: newId,
-      title: product.title,
+       title: product.title,
       description: product.description,
+      code: product.code,
       price: product.price,
+      status: product.status ?? true,
       stock: product.stock,
       category: product.category,
+      thumbnails: product.thumbnails || []
     };
 
     products.push(newProduct);
